@@ -1,5 +1,6 @@
 package com.g7470.originalexpansion;
 
+import com.g7470.originalexpansion.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -19,6 +20,7 @@ public class OriginalExpansion implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		ModItems.register();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
