@@ -1,5 +1,6 @@
 package com.g7470.originalexpansion;
 
+import com.g7470.originalexpansion.block.ModBlocks;
 import com.g7470.originalexpansion.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -21,6 +22,7 @@ public class OriginalExpansion implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.register();
+		ModBlocks.register();
 		LOGGER.info("Hello Fabric world!");
 	}
 }
